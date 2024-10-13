@@ -10,6 +10,8 @@ import holidays
 from datetime import datetime, timedelta
 import base64
 import io
+import locale
+locale.setlocale(locale.LC_TIME, 'en_US.UTF-8')
 
 import dash
 import dash_core_components as dcc
