@@ -1270,7 +1270,7 @@ server = app.server
 Aplicativo(app, url, ejecucion_demanda_parte_2, dem_total)
 
 if __name__ == "__main__":
-    app.run_server(host="10.0.5.36",port = 8054 ,debug=True)
+    app.run_server(debug=True)
 
 
 
