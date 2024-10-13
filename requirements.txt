@@ -8,4 +8,4 @@ pandas == 2.1.4
 plotly == 5.9.0 
 numpy == 1.26.4
 gunicorn == 23.0.0
-locale == 3.11.9
+babel == 2.12.1
